@@ -1,0 +1,36 @@
+body {
+    background-color: aliceblue;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: dimgray;
+    margin: 100px auto 0 auto;
+    padding: 50px 50px 20px 50px;
+}
+
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: dimgray;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.todo-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 10px 0;
+    white-space: normal; 
+    overflow: hidden;
+}
+
+.complete-todo {
+    text-decoration: line-through;
+}
